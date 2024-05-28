@@ -79,13 +79,13 @@ import matplotlib.pyplot as plt
 #     st.text_input("Confirm Password")
 #     st.form_submit_button("Submit")
 
-x = np.linspace(0, 10, 100)
-opt = st.sidebar.radio("Select any graph type",
-                       options=["line", "bar", "sin", "H Bar"])
-if opt == "line":
-    fig = plt.figure(figsize=[10, 5])
-    plt.style.use("https://raw.githubusercontent.com/dhaitz/matplotlib-stylesheets/master/pitayasmoothie-dark.mplstyle")
-    plt.title(f"{opt} chart selected")
-    plt.plot(x, np.sin(x))
-    plt.plot(x, np.cos(x), '--')
-    st.write(fig)
+# x = np.linspace(0, 10, 100)
+# opt = st.sidebar.radio("Select any graph type",
+#                        options=["line", "bar", "sin", "H Bar"])
+# if opt == "line":
+#     fig = plt.figure(figsize=[10, 5])
+#     plt.style.use("https://raw.githubusercontent.com/dhaitz/matplotlib-stylesheets/master/pitayasmoothie-dark.mplstyle")
+#     plt.title(f"{opt} chart selected")
+#     plt.plot(x, np.sin(x))
+#     plt.plot(x, np.cos(x), '--')
+#     st.write(fig)
